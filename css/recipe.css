@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'GimpoGothicBold00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicBold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GimpoGothicRegular00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicRegular00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'GimpoGothicRegular00';
+}
+a{
+    color:#333333;
+}
+aside{
+    width:20%;
+    height:100vh;
+    float: left;
+    overflow:hidden;
+    text-align:center;
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    opacity:0.8;
+    box-shadow: 5px 5px 5px 0px rgb(192, 192, 192);
+}
+.cate{
+    padding-top: 50px;
+    color:#333333;
+}
+aside h1{
+    margin: 0 auto;
+    width:250px;
+    height:50px;
+    font-size:35px;
+    border:2px solid #333333;
+    padding-top:6px;
+}
+.tab_menu{
+    padding-top:10%;
+    font-size:30px;
+}
+.tab_menu li svg{
+    margin-right: 10px;
+}
+.tab_menu li:not(:nth-child(1)){
+    padding-top:30px;
+}
+.write{
+    margin: 0 auto;
+    width:100px;
+    padding-top:50px;
+    text-align: center;
+    font-size:30px;
+    border-bottom:2px solid #333333;
+}
+
+body{
+    height: 100%;
+
+}

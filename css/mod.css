@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'GimpoGothicBold00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicBold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GimpoGothicRegular00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicRegular00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'GimpoGothicRegular00';
+}
+.hidden {
+        opacity: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.sub{
+    margin-top:30px;
+}
+.input{
+    background: #f5f5f5;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    padding-left: 15px;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: -1px;
+    width: 400px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+p{
+    width: 120px;
+    font-size: 20px;
+    padding: 0 0 0 2px;
+    line-height: 50px;
+    display: inline-block;
+}
+.food_img {
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+}
+.ctnt{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+select {
+    background: #f5f5f5;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    padding: 8px 2px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.submit {
+    padding: 12px 50px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #fa755b;
+    border: none;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 3px;
+    margin: 10px;
+    text-shadow: none;
+}
+textarea{
+    background: #f5f5f5;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+}
+#category{
+    width:100px;
+    height:40px;
+    text-align: center;
+}
+.ctnt_1{
+    padding-bottom: 20px;
+}

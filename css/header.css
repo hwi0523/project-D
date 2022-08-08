@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'GimpoGothicBold00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicBold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GimpoGothicRegular00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicRegular00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yeongdo-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    font-size:30px; 
+    width:100%;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fa755b;
+}
+.header-box{
+    width:80%;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'GimpoGothicRegular00';
+}
+.header-box a{
+    color: #fff;
+}
+.logo{
+    position: relative;
+}
+.logo h1{
+    padding-top: 28px;
+    padding-right: 50px;
+}
+.logo h1 a{
+    font-size:50px;
+    font-family: 'Yeongdo-Rg';
+    font-weight: bold; 
+}
+.nav ul{
+    display:flex;   
+}
+.nav li{
+    padding-top:15px;
+}
+.nav ul li:not(:last-child){
+    margin-right: 100px;
+}
+.nav a:after{
+    display:block;
+    width:100%;
+    content: '';
+    border-bottom: solid 3px #fff;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out; 
+}
+.nav a:hover:after{
+    transform: scaleX(1);
+}
+.join span{
+    padding: 15px 18px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius: 19px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-align:center;
+    font-family: 'GimpoGothicRegular00'; 
+}
+.login_user{ 
+    display:flex; 
+    align-items: center;
+    padding-right: 10px;
+    margin-top:5px;
+}
+.join span:not(:last-child){
+    margin-right: 10px;
+}
+.circular__img { 
+    display: inline-block; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    margin-right:15px;
+    margin-top: 10px;
+}
+.circular__nm{
+    font-size:20px;
+    margin-right:15px;
+}
+#logout{
+    font-size:15px;
+    border-radius: 19px;
+    border: 2px solid #fff;
+    padding: 5px 18px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#log{
+    font-size:15px;
+    border-radius: 19px;
+    border: 2px solid #fff;
+    padding: 10px 18px;
+    text-align: center;
+}
+.master{
+    position: relative;
+    top: 8px;
+}
+.circular__img img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.wh40 { width: 40px; height: 40px; }

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.qna {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+table {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th{
+    height:30px;
+    font-weight:bold;
+    background-color: #f05334;
+    color:white;
+    border-radius: 5px;
+}
+
+caption {
+    text-align:end;
+}
+
+td:not(:nth-child(0)){
+    text-align: center;
+}
+
+div.page {
+    text-align: center;
+}
+
+.pageSelected {
+    font-weight: bold;
+}
+
+.pageSelected > a {
+    color: #f05334;
+}

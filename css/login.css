@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'GimpoGothicBold00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicBold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GimpoGothicRegular00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/GimpoGothicRegular00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'GimpoGothicRegular00';
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgba(255, 255, 255, 0.3); 
+}
+.login_board {
+    width: 500px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    background-color:#fff;
+}
+.login_board h1{
+    font-family: 'GimpoGothicBold00';
+    font-weight: bold;
+}
+input[type="text"]{
+    height:30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.user_id svg{
+    position: relative;
+    top:10px;
+}
+input[type="password"]{
+    height:30px;
+    margin-left: 10px;
+}
+input[type="submit"]{
+    margin-right: 10px;
+    height:35px;
+    background-color:#000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.but{
+    height:35px;
+    width:60px;
+    background-color:#000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.but_log{
+    height:30px;
+    width:100px;
+    background-color:#000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.pass_id svg{
+    position: relative;
+    top:10px;
+}
+.log_join{
+    display:flex;
+    justify-content:center;
+    margin: 10px 0;
+    margin-left: 35px;
+}
+body{
+    background-image: url(../img/img_2.jpg);
+    object-fit: cover;
+}
+.lo{
+    color: #333;
+    font-size: 20px;
+}
