@@ -1,5 +1,5 @@
 # project-D
-제가 맡은 기능과 페이지는 로그인/회원가입 qna 게시판 관리자 등 입니다
+제가 맡은 기능과 페이지는 로그인/회원가입 qna 게시판(글쓰기,수정,삭제) 관리자 등 입니다
 
 ![image](https://user-images.githubusercontent.com/101933886/183391583-e59d574c-4105-4ace-b690-38fd940ffce5.png) 
 ![image](https://user-images.githubusercontent.com/101933886/183391647-18afeeae-705d-46d5-87c9-60ad88d096f8.png)
